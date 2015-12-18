@@ -13,6 +13,7 @@
 		66CA04CD1C0AD13F00186D44 /* HitList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66CA04CB1C0AD13F00186D44 /* HitList.xcdatamodeld */; };
 		66CA04CF1C0AD13F00186D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CA04CE1C0AD13F00186D44 /* Assets.xcassets */; };
 		66CA04D21C0AD13F00186D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA04D01C0AD13F00186D44 /* LaunchScreen.storyboard */; };
+		66CA04DA1C0AD1CC00186D44 /* HitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA04D91C0AD1CC00186D44 /* HitTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		66CA04CE1C0AD13F00186D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CA04D11C0AD13F00186D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CA04D31C0AD13F00186D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CA04D91C0AD1CC00186D44 /* HitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				66CA04C41C0AD13F00186D44 /* AppDelegate.swift */,
 				66CA04C61C0AD13F00186D44 /* ViewController.swift */,
+				66CA04D91C0AD1CC00186D44 /* HitTableViewController.swift */,
 				66CA04C81C0AD13F00186D44 /* Main.storyboard */,
 				66CA04CE1C0AD13F00186D44 /* Assets.xcassets */,
 				66CA04D01C0AD13F00186D44 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				66CA04CD1C0AD13F00186D44 /* HitList.xcdatamodeld in Sources */,
 				66CA04C71C0AD13F00186D44 /* ViewController.swift in Sources */,
 				66CA04C51C0AD13F00186D44 /* AppDelegate.swift in Sources */,
+				66CA04DA1C0AD1CC00186D44 /* HitTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HitList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dingdingzufangzi.HitList;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HitList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dingdingzufangzi.HitList;
@@ -288,6 +294,7 @@
 				66CA04D81C0AD13F00186D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
